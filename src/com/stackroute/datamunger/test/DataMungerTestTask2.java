@@ -132,7 +132,7 @@ public class DataMungerTestTask2 {
 
 		assertNull(
 				"testGetConditions() :Retrieval of conditions failed. Check getConditions() method.The query can contain one or multiple conditions. In case of multiple conditions, the conditions will be separated by AND/OR keywords.",
-				dataMunger.getConditions("select city,winner,player_match from ipl.csv"));
+			dataMunger.getConditions("select city,winner,player_match from ipl.csv"));
 
 		assertNull(
 				"testGetConditions() :Retrieval of conditions failed. Check getConditions() method.The query can contain one or multiple conditions. In case of multiple conditions, the conditions will be separated by AND/OR keywords.",
